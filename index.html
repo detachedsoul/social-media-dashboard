@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Social Media Dashboard With Theme Changer</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+
+    <div class="container">
+
+        <div class="dark-top-bg-wave top-bg-color">
+
+            <div class="top flex flex-column gap-2">
+
+                <div>
+                    <h2>
+                        Social Media Dashboard
+                    </h2>
+                    <P class="sub-header dark-blue-text">
+                        Total Followers: 23,004
+                    </P>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div class="flex align-center justify-between gap-2">
+                    <span class="dark-blue-text">
+                        Dark Mode
+                    </span>
+                    <label class="switch relative">
+                        <input class="toggle-switch" type="checkbox">
+                        <span class="slider absolute"></span>
+                    </label>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="content-container absolute">
+
+            <div class="m-y-2 grid grid-cols-4 gap-2">
+
+                <div class="dark-card card flex flex-column align-center facebook-border gap-half">
+
+                    <div class="flex align-center column-gap-half dark-blue-text">
+                        <img class="icon" src="assets/img/icon-facebook.svg" alt="Facebook icon">
+                        @nathanf
+                    </div>
+
+                    <div class="follwers-stat flex flex-column align-center">
+                        <h2>
+                            1987
+                        </h2>
+                        <p class="sub-header dark-blue-text">
+                            Followers
+                        </p>
+                    </div>
+
+                    <div class="green flex align-center column-gap-half">
+                        <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 12 Today
+                    </div>
+
+                </div>
+
+                <div class="dark-card card flex flex-column align-center twitter-border gap-half">
+
+                    <div class="flex align-center column-gap-half dark-blue-text">
+                        <img class="icon" src="assets/img/icon-twitter.svg" alt="Twitter icon">
+                        @nathanf
+                    </div>
+
+                    <div class="follwers-stat flex flex-column align-center">
+                        <h2>
+                            1044
+                        </h2>
+                        <p class="sub-header dark-blue-text">
+                            Followers
+                        </p>
+                    </div>
+
+                    <div class="green flex align-center column-gap-half">
+                        <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 99 Today
+                    </div>
+
+                </div>
+
+                <div class="dark-card card flex flex-column align-center instagram-border gap-half relative">
+
+                    <div class="flex align-center column-gap-half dark-blue-text">
+                        <img class="icon" src="assets/img/icon-instagram.svg" alt="Instagram icon">
+                        @realnathanf
+                    </div>
+
+                    <div class="follwers-stat flex flex-column align-center">
+                        <h2>
+                            11k
+                        </h2>
+                        <p class="sub-header dark-blue-text">
+                            Followers
+                        </p>
+                    </div>
+
+                    <div class="green flex align-center column-gap-half">
+                        <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 1099 Today
+                    </div>
+
+                </div>
+
+                <div class="dark-card card flex flex-column align-center youtube-border gap-half">
+
+                    <div class="flex align-center column-gap-half dark-blue-text">
+                        <img class="icon" src="assets/img/icon-youtube.svg" alt="Youtube icon">
+                        Nathan F.
+                    </div>
+
+                    <div class="follwers-stat flex flex-column align-center">
+                        <h2>
+                            8239
+                        </h2>
+                        <p class="sub-header dark-blue-text">
+                            Subscribers
+                        </p>
+                    </div>
+
+                    <div class="red flex align-center column-gap-half">
+                        <img class="icon" src="assets/img/icon-down.svg" alt="Caret down icon"> 144 Today
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="m-y-2">
+
+                <h2>
+                    Overview - Today
+                </h2>
+
+                <div class="m-y-2 grid gap-2 grid-cols-4">
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Page Views
+                            </span>
+                            <img class="icon" src="assets/img/icon-facebook.svg" alt="Facebook icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                87
+                            </span>
+                            <span class="green flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 
+                                3%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Likes
+                            </span>
+                            <img class="icon" src="assets/img/icon-facebook.svg" alt="Facebook icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                52
+                            </span>
+                            <span class="red flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-down.svg" alt="Caret down icon"> 
+                                2%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="dark-blue-text flex align-center justify-between">
+                            <span>
+                                Likes
+                            </span>
+                            <img class="icon" src="assets/img/icon-instagram.svg" alt="Instagram icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                5462
+                            </span>
+                            <span class="green flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 
+                                2257%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="dark-blue-text flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Profile Views
+                            </span>
+                            <img class="icon" src="assets/img/icon-instagram.svg" alt="Instagram icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                52k
+                            </span>
+                            <span class="green flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 
+                                1375%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Retweets
+                            </span>
+                            <img class="icon" src="assets/img/icon-twitter.svg" alt="Twitter icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                117
+                            </span>
+                            <span class="green flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 
+                                303%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Likes
+                            </span>
+                            <img class="icon" src="assets/img/icon-twitter.svg" alt="Twitter icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                507
+                            </span>
+                            <span class="green flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-up.svg" alt="Caret up icon"> 
+                                553%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Likes
+                            </span>
+                            <img class="icon" src="assets/img/icon-youtube.svg" alt="Youtube icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                107
+                            </span>
+                            <span class="red flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-down.svg" alt="Caret down icon"> 
+                                19%
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="dark-card card flex flex-column overview-card">
+
+                        <div class="flex align-center justify-between">
+                            <span class="dark-blue-text">
+                                Total Views
+                            </span>
+                            <img class="icon" src="assets/img/icon-youtube.svg" alt="Youtube icon">
+                        </div>
+
+                        <div class="flex align-center justify-between">
+                            <span class="overview-stat">
+                                1407
+                            </span>
+                            <span class="red flex align-center column-gap-half">
+                                <img class="icon" src="assets/img/icon-down.svg" alt="Caret down icon"> 
+                                12%
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="attribution flex text-center m-y-2">
+
+                <span>
+                    Challenge by 
+                    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>
+                </span>
+
+                <span>
+                    Coded by 
+                    <a href="https://web.facebook.com/IamWisdomOjimah">Wisdom Ojimah</a>
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+
+</body>
+</html>
